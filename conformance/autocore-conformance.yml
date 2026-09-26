@@ -1,0 +1,19 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://autocore.ai/en/news-iso21434
+sources:
+- https://autocore.ai/en/news-iso21434
+- https://autocore.ai/en/news-20260920
+standards:
+- id: iso-20022
+  conforms: true
+  evidence: AutoCore Technology (Nanjing) Co., Ltd. Awarded ISO/IEC 27001:2022 Information Security Management System Certification
+- id: iso-20022
+  conforms: true
+  evidence: AutoCore awarded SGS‑TÜV ISO/SAE 21434 Cyber Security Development Process Certification
+- id: iso-20022
+  conforms: true
+  evidence: AutoCore.Runtime & AutoCore.Timesync 获得TÜV莱茵ISO26262 ASIL D 产品认证
+docs: https://autocore.ai/en/news-iso21434
+note: 2 extracted row(s) were dropped because their quote was not on the page.

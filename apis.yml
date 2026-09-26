@@ -1,23 +1,70 @@
 aid: autocore
+
 name: Autocore
-description: 'Autocore is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'AutoCore, founded in 2018, is a global leader in high‑performance mobile computing platforms, offering software‑defined vehicle solutions, AI‑driven robotics, and cloud‑based services for automotive and industrial automation. The company provides a suite of products including AutoCore.COMM, AutoCore.OS, central computing units, and tools for intelligent mobility devices.'
+
 url: https://raw.githubusercontent.com/api-evangelist/autocore/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- Automotive
+- Robotics
+- Software
+- AI
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Conformance
+  url: conformance/autocore-conformance.yml
+- type: Hosts
+  url: hosts/autocore-hosts.yml
+- type: Vendors
+  url: vendors/autocore-vendors.yml
+- type: GitHubOrganization
+  url: https://github.com/autocore-ai
+- type: DomainSecurity
+  url: security/autocore-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/autocore
+  url: https://autocore.ai/en
+- type: Documentation
+  url: https://autocore.ai/en/docs
+- type: Blog
+  url: https://autocore.ai/en/blog
+- type: APIReference
+  url: https://autocore.ai/en/api
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are HTML rendered with JavaScript and no machine‑readable OpenAPI or other contract was found.
+  evidence:
+    - url: https://autocore.ai/en/docs
+      status: 200
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
