@@ -39,8 +39,6 @@ maintainers:
   email: info@apis.io
 
 common:
-- type: Plans
-  url: plans/autocore-plans-pricing.yml
 - type: Conformance
   url: conformance/autocore-conformance.yml
 - type: Hosts
